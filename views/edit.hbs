@@ -1,0 +1,27 @@
+<div class="reg">
+   <h1>Редактирование</h1>
+</div>
+
+{{!-- форма редактирования карточки --}}
+
+<div class="editFormShell">
+<form id="editForm" action="/animaledit/{{id}}" method="PUT">
+
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Название</label>
+    <input name="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputEmail2" class="form-label">Описание</label>
+    <textarea rows="4" cols="20" name="description" type="text" class="form-control description" id="exampleInputEmail2" aria-describedby="emailHelp">
+    </textarea>
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputEmail2" class="form-label">Ссылка на картинку</label>
+    <input name="pics" type="text" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp">
+  </div>
+  <button type="submit" class="btn btn-success">Отправить</button>
+</form>
+</div>

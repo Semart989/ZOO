@@ -1,0 +1,14 @@
+<h1 class="h_rates">Тарифы</h1>
+<div class="all_rates">
+{{#each rate}}
+<div class="rate">
+  <div class="rate_name">{{nameRate}}</div>
+  <form class="price" id={{id}}>
+    <input type="text" class="priceText" name="priceRate1" placeholder="{{priceRate}}руб">
+    {{#if ../admin}}
+    <button class="change_rate" type="submit">Изменить тариф</button>
+    {{/if}}
+  </form>
+</div>
+{{/each}}
+</div>

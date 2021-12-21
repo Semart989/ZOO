@@ -1,0 +1,269 @@
+* {
+  font-family: 'Comfortaa';
+}
+
+body {
+  background-color: rgb(187 199 195);
+}
+
+a {
+  text-decoration: none;
+}
+
+.add_div1{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.add_form {
+  display: flex;
+  justify-content: center;
+}
+
+.input_add {
+  margin-right: 60px;
+}
+
+.input {
+  font-family: 'Comfortaa';
+  margin-top: 20px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  color: #111111;
+  }
+
+.input_button:hover {
+  background-color: rgb(224, 178, 214);
+}
+  
+.register_form {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Comfortaa';
+  margin: auto;
+  width: 300px;
+}
+
+.regbody {
+  background-color: rgb(187 199 195);
+}
+
+.h1_reg {
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 8px;
+  margin-bottom: 0px;
+}
+
+.reg {
+  text-align: center;
+  padding: 100px;
+}
+
+.a_input {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+}
+
+.info__item a:hover{
+  color: rgb(0, 132, 141);
+}
+
+#menu__info {
+  display: flex;
+  background-color: rgb(248, 248, 248);
+  justify-content: center;
+  padding: 20px 0 20px 0px;
+}
+
+.info__item, .info__item a{
+  margin: 30px 0px 0px 20px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+
+.images_card {
+  display: flex;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 14px;
+  margin: 20px;
+  padding: 10px;
+  max-height: 700px;
+}
+#first_rate1 {
+  margin-left: 22%;
+}
+.rate {
+  width: 200px; 
+  height: 100px; 
+  border: 1px solid black; 
+  display: block; 
+  float: left; 
+  margin-top: 40px
+}
+.rate_name {
+  /* display: block;  */
+  border: 1px solid black; 
+  width: 200px; 
+  height: 50px; 
+  text-align: center; 
+  font-size: 23px; 
+  padding-top: 4px;
+}
+.price {
+  display: block; 
+  border: 1px solid black; 
+  height: 50px; 
+  width: 200px; 
+  text-align: center; 
+  font-size: 19px; 
+  padding-top: 7px;
+  text-align: center;
+}
+.h_rates {
+  font-size: 30px; 
+  text-align:center; 
+  color: black; 
+  margin-top: 140px; 
+  font-size: 35px
+}
+/* #rateButton {
+  width: 100px; 
+  height: 70px; 
+  border: 1px solid black; 
+  color: black; 
+  font-size: 22px;
+} */
+.change_rate {
+  margin-top: 30px;
+  margin-left: 0px;
+  width: 150px;
+  height: 42px;
+  border: 1px solid black;
+  font-size: 14px;
+  line-height: 15px;
+  border-radius: 15px;
+}
+.priceText {
+  width: 198px;
+  height: 49px;
+  text-align: center;
+  margin-top: -8px;
+  margin-left: -2px;
+}
+
+.carousel-item {
+  height: 600px;
+}
+
+.h5_carousel { 
+  font-size: 30px; 
+  font-weight: 800; 
+  color:rgb(250, 250, 250); 
+  text-shadow: 0px 0px 12px black; 
+ } 
+  
+ .p_carousel { 
+  padding-top: 5px; 
+  font-size: 20px; 
+  font-weight: 800; 
+  color:rgb(255, 255, 255); 
+  text-shadow: 0px 0px 10px rgb(0, 0, 0); 
+ }
+
+ .index_body {
+  background-color: #fff;
+ }
+
+ .card-text{
+   min-height: 300px;
+ }
+
+ .card-img-top {
+   height: 200px;
+ }
+
+/* форма редактирования зверушки */
+
+.editFormShell {
+  background-color: rgb(206, 226, 208);
+  padding: 20px;
+  width: 450px;
+  margin: auto;
+  margin-top: -70px;
+  border-radius: 30px;
+}
+
+#editForm {
+   text-align: center;
+   width: 400px;
+   margin: auto;
+ }
+
+/* футер на контакты */
+
+#footer {
+	display: flex;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 200px;
+  padding-top: 50px;
+
+}
+
+.img_social {
+	widows: 30px;
+	height: 30px;
+	margin: 20px 20px;
+}
+
+.cat_heart {
+	font-size: 20px;
+	font-weight: 600;
+  width: 200px;
+}
+
+.img_footer {
+	width: 20px;
+	height: 20px;
+}
+
+.help {
+	margin: 20px 0px 20px 100px;
+}
+
+.info {
+	margin: 20px 100px 20px 0px;
+  text-align: right;
+}
+
+.p__footer {
+  padding: 5px 20px;
+  font-size: 20px;
+}
+
+.phone {
+  font-size: 20px;
+	font-weight: 600;
+  width: 200px;
+}
+
+.all_rates {
+  margin-left: 22%;
+  margin-top: 20px;
+}

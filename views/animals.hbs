@@ -1,0 +1,39 @@
+<h1 style="margin-top:30px; margin-bottom:-20px; font-size:30px; text-align:center;">Наши друзья</h1>
+
+{{!-- форма для карточек --}}
+
+<div class="images_card">
+{{#each animals}}
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="{{pics}}" alt="Card image cap">
+    <div class="card-body" data-animal-id={{id}}>
+      <h5 class="card-title">{{name}}</h5>
+      <p class="card-text">{{description}}</p>
+      {{#if ../admin}}
+      <button type="submit" class="btn btn-primary deleteButton">Delete</button>  
+      <a href="/animaledit/{{id}}" class="btn btn-primary">Edit</a>
+      {{/if}}
+    </div>
+  </div>
+{{/each}}
+</div>
+  
+{{!-- форма для добавления карточки --}}
+{{!-- UPLOADER --}}
+
+{{#if email}}
+  <div class="add_div1">
+    <div class="add_div">
+      <h1 style="font-size:30px; text-align:center;">Добавить карточку</h1>
+      <form class='add_form input' id='add_form' name="add_form" action="/animals" method="POST">
+        <label>Название: <br>
+          <input class="input_add" name="name" type="text" required/></label>
+        <label>Описание: <br>
+          <input class="input_add" name="description" type="text" required/></label>
+        <label>Ссылка на картинку: <br>
+          <input class="input_add" name="pics" type="text" required/></label> 
+        <button style="margin-top:0px;"class='input input_button'type="submit">Добавить</button>
+      </form>
+    </div>
+  </div>
+{{/if}}

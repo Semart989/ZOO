@@ -1,0 +1,11 @@
+<div style="display: flex; flex-direction: row; flex-wrap: wrap;">
+{{#each animals}}
+  <div class="card direction" style="width: 18rem; margin: 10px;">
+    <img src="{{pics}}" class="card-img-top">
+    <div id="cardBody" data-card-id={{id}} class="card-body">
+    <h5 class="card-title">{{name}}</h5>
+    <p class="card-text">{{description}}</p>
+  </div>
+</div>
+{{/each}}
+</div>
